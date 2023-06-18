@@ -1,0 +1,6 @@
+Site requirements:
+- Sections for each setting/genre (i.e. one for Neolithic, one for Solarpunk, etc)
+- Pages where I can infodump about worldbuilding details
+- Pages of plaintext where I can drop the chapters to be read from browser
+- Home page that links to the above pages + buttons to download PDFs/epubs/mobis of the full books
+- Maybe a gallery page where I can drop arts, maps and other visual media
