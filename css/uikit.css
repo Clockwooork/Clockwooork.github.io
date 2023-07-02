@@ -19,6 +19,15 @@ html {
   background: #fff;
   color: #666;
 }
+
+@font-face {
+  font-family: 'xayaxregular';
+  src: url('xayax.woff2') format('woff2'),
+       url('xayax.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 /*
  * Remove the margin in all browsers.
  */
