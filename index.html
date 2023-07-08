@@ -13,21 +13,14 @@ address		{font-family:EasyReadingPRO; font-size:15px; color:white;}
 a:link 		{color:rgb(68,117,47); background-color:transparent; text-decoration:none;}
 a:visited 	{color:rgb(242, 200, 68); background-color:transparent; text-decoration:none;}
 
-button		{background-color:rgb(32, 32, 32); font-family:EasyReadingPRO; font-size:20px; text-align:center; overflow:hidden; border:2px solid; padding:10%; cursor:pointer; margin-left:auto; margin-right:auto;}
-button:hover	{background-color:rgb(80, 80, 80); overflow:hidden;}
-
-buttonv		{background-color:rgb(0, 0, 60); font-family:xayax; font-size:40px; color:rgb(220, 220, 220); text-align:center; overflow:hidden; border:2px solid; padding:20px 15%; cursor:pointer; float:center; justify-content: center;}
-buttonv:hover	{background-color:rgb(0, 38, 132); overflow:hidden;}
-
-buttons		{background-color:rgb(71, 48, 112); font-family:nalom; font-size:30px; color:rgb(203, 195, 227); text-align:center; overflow:hidden; border:2px solid; padding:20px 10%; cursor:pointer; margin-left:auto; margin-right:auto;}
-buttons:hover	{background-color:#4e1b7e; overflow:hidden;}
-
-buttonm		{background-color:rgb(68,117,47); font-family:harrington; font-size:30px; color:rgb(242, 200, 68); text-align:center; overflow:hidden; border:2px solid; padding:20px 10%; cursor:pointer; margin-left:auto; margin-right:auto;}
-buttonm:hover	{background-color:#549f36; color:rgb(222, 180, 48); overflow:hidden;}
+button		{font-size:200%; text-align:center; overflow:hidden; border:2px solid; padding:10%; cursor:pointer; margin-left:auto; margin-right:auto;}
+button:hover	{overflow:hidden;}
 
 .topnav 	{overflow:hidden; background-color:rgb(68,117,47)}
 .topnav a 	{float:left; display:block; color:rgb(220, 220, 220); text-align:justify; padding:1% 2%; text-decoration:none; font-size:25px; font-family:Gill Sans MT Condensed;}
 .topnav a:hover {background-color:rgb(48,97,27); color:rgb(242, 200, 68);}
+
+.container  {font-size:100%; text-align:justify;}
 </style>
 <title>Archive of Tomorrow</title>
 <link rel="icon" type="image/x-icon" href="logosp.png">
@@ -48,11 +41,14 @@ buttonm:hover	{background-color:#549f36; color:rgb(222, 180, 48); overflow:hidde
 </div>
 <hr />
 
+<div class="container">
 <h3>Explore my works:</h3>
 <br>
-<div style="text-align:center;"><a href="tomorrow.html"><buttonv>The Veliode Trilogy</buttonv></a><br><br><br><br>
-<a href="cyclica.html" style="text-align:right"><buttons>Simulacra Navigans</buttons></a><br><br><br><br>
-<a href="shortstories.html" style="text-align:center; float:none;"><buttonm>Solarpunk Short Stories</buttonm></a><br><br><br><br>
+    <div class="button"><a href="tomorrow.html">The Veliode Trilogy</a></div>
+        <br><br><br><br>
+    <a href="cyclica.html" style="text-align:right"><buttons>Simulacra Navigans</buttons></a><br><br><br><br>
+    <a href="shortstories.html" style="text-align:center; float:none;"><buttonm>Solarpunk Short Stories</buttonm></a><br><br><br><br>
+    </div>
 </div>
 
 <p style="text-align:right;">&#9195; <a href="#top">Back to the Exploration Bar!</a></p>
