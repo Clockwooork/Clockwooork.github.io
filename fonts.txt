@@ -2,13 +2,13 @@ Home		Title		Play
 		Navbar		Teko
 		Text		EB Garamond
 
-Veliode		Titles/navbar	Cinzel Decorative/Caudex
+Veliode		Titles/navbar	Cinzel Decorative/Nova Round/Macondo Swash Caps
 		Text		Tangerine/IM Fell English
 
 Simulacra	Titles/navbar	Orbitron
 		Text		Chakra Petch
 
-Short stories	Buttons		Yanone Kaffeesatz/Macondo
+Short stories	Buttons		Yanone Kaffeesatz/Oregano
 
 Taigan		Titles		Yuji Boku
 		Text		Neucha
