@@ -1,0 +1,11 @@
+Home		Title
+		Navbar
+		Text
+
+Veliode		Titles/navbar
+		Text
+
+Simulacra	Titles/navbar
+		Text
+
+Short stories	Buttons
