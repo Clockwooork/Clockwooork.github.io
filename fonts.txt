@@ -1,13 +1,11 @@
-Home		Title		Yanone Kaffeesatz
-		Navbar
+Home		Title		
+		Navbar		Teko
 		Text
 
-Veliode		Titles/navbar	Teko
+Veliode		Titles/navbar	
 		Text
 
 Simulacra	Titles/navbar	Orbitron
 		Text
 
-Short stories	Buttons
-
-Yanone Kaffeesatz
+Short stories	Buttons		Yanone Kaffeesatz
