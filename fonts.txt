@@ -1,14 +1,16 @@
-Home		Title		Play
-		Navbar		Teko
-		Text		EB Garamond
+PAGE		ELEMENT		NEW FONT			OLD FONT
 
-Veliode		Titles/navbar	Cinzel Decorative/Nova Round/Macondo Swash Caps
-		Text		Tangerine/IM Fell English
+Home		Title		Play				EasyReadingPRO
+		Navbar		Teko				EasyReadingPRO
+		Text		EB Garamond			EasyReadingPRO
 
-Simulacra	Titles/navbar	Orbitron
-		Text		Chakra Petch
+Veliode		Titles/navbar	Nova Round/Macondo Swash Caps	Xayax
+		Text		Tangerine/IM Fell English	Aquifer
 
-Short stories	Buttons		Yanone Kaffeesatz/Oregano
+Simulacra	Titles/navbar	Orbitron			Vudotronic
+		Text		Chakra Petch			Quango
 
-Taigan		Titles		Yuji Boku
-		Text		Neucha
+Short stories	Buttons		Oregano/Yanone Kaffeesatz	Harrington
+
+Taigan		Titles		Yuji Boku			-
+		Text		Neucha				-
