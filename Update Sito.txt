@@ -2,4 +2,5 @@ TODO:
 - Take away buttons from Short Stories page, replace with link list
 - Add Meteorina
 - Update Taiga status + Qualification post
+- Add Scartafaccio to friend links
 
