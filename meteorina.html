@@ -27,12 +27,11 @@ button:hover	{background-color:rgb(48,97,27); overflow:hidden;}
 
 .container  {font-size:100%; text-align:justify; width:60%; margin-left:20%; margin-right:20%;}
 .card       {font-size:100%; text-align:justify; width:30%; margin-left:2%; margin-right:2%; border:2px solid white; padding-right:1%; padding-left:1%; background-color:#4194CB;"}
-.container > div {background-color: #f1f1f1;  border: 1px solid black;  padding: 20px;  font-size: 30px;  text-align: center;}
 
 .column     {float:left; width:50%;}
 .row:after  {content:""; clear:both; display:table;}
 
-/*.grid-container         {display:grid; grid-template columns:auto; grid-gap:10px;}
+/*.grid-container         {display:grid; grid-template-columns:auto; grid-gap:10px;}
 .grid item:first-child  {}*/
 
 @media only screen and (max-width: 800px) {
@@ -106,10 +105,10 @@ button:hover	{background-color:rgb(48,97,27); overflow:hidden;}
 <hr />
 <br>
 
-<div class="container" style="display:grid; overflow:auto;">
+<div class="container" style="display:grid; overflow:auto; grid-template-columns: auto auto auto; grid-gap:10px;">
   <h1>Meet the Crew!</h1>
   <br>
-    <div>
+    <div class="card">
       <h3 style="text-align:center;">&#9895;&#65039; Cpt Canni [Marwen Cannizzaro]</h3>
       <p style="margin-right:1%;"><b>From:</b> Lipari (Aeolian Islands)</p>
       <p><b>Background:</b> Former naval engineer in Sicily</p>
@@ -118,7 +117,7 @@ button:hover	{background-color:rgb(48,97,27); overflow:hidden;}
       <p><b>Role on board:</b> Captain (duh)</p>
     </div>
 
-    <div>
+    <div class="card">
       <h3 style="text-align:center;">&#9794;&#65039; Pietro Furlan</h3>
       <p><b>From:</b> Free City of Trieste</p>
       <p><b>Background:</b> Accademia Navale Internazionale di Trieste. Former third electrical engineer on the megafreighter ship <i>Silna</i>.</p>
