@@ -16,14 +16,20 @@ button:hover	{background-color:rgb(24, 24, 72); color:rgb(220, 220, 220);}
 a:link 		   {color:white; background-color:transparent; text-decoration:none;}
 a:visited 	 {color:rgb(120, 120, 120); background-color:transparent; text-decoration:none;}
 
-.topnav 	{overflow:hidden; background-color:black; float:none; position:relative; top:0; left:0; transform:none; text-align:justify; font-size:150%; position: fixed; top: 0px;}
+.topnav 	{overflow:hidden; background-color:black; float:none; transform:none; text-align:justify; font-size:150%; position:fixed; top:0px;}
 .topnav a 	{float:left; display:block; color:white; text-align:justify; padding:1% 2%; text-decoration:none; font-family:Orbitron;}
 .topnav a:hover {background-color:rgb(96, 120, 216); color:rgb(24, 24, 72);}
 
-.container  {font-size:100%; text-align:justify; margin-right:20vw; margin-left:20vw;}
+.container  {font-size:100%; text-align:justify; width:60vw; margin-right:20vw; margin-left:20vw;}
 .column     {float:left; width:50%;}
 .row:after  {content:""; clear:both; display:table;}
+
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  .container {width:90%; margin-left:10%; margin-right:10%;}
+}
 </style>
+
 <title>Simulacra Navigans</title>
 <link rel="icon" type="image/x-icon" href="logo2.png">
 </head>
@@ -55,12 +61,12 @@ a:visited 	 {color:rgb(120, 120, 120); background-color:transparent; text-decora
 <div class="container" style="margin-right:30px; margin-left:30px; overflow:auto">
     <h3 id="book">Read the story</h3>
     <div class="column">
-        <div class="container" style="text-align:center; margin-right:0px; margin-left:0px;">
+        <div style="text-align:center; margin-right:0px; margin-left:0px;">
             <img src="Cover - Simulacra Navigans3.png" alt="Simulacra Navigans Book Cover: a geometric composition of white squares and circles on a deep space background; Neptune sits at the center." width=60% style="float:center; margin-left:1%; margin-right:1%;">
         </div>
     </div>
     <div class="column">
-        <div class="container" style="text-align:justify; margin-right:0px; margin-left:0px;">
+        <div style="text-align:justify; margin-right:0px; margin-left:0px;">
             <p style="text-align:center; margin-right:1%;">
                 <a href="https://basket.the-wetlands.org/s/XmwsnQxx2eG7JFD" target="_blank">
                 <button style="width:100%;">&#127466;&#127482; Download <i>Simulacra Navigans</i> [PDF]</button>
@@ -91,8 +97,8 @@ a:visited 	 {color:rgb(120, 120, 120); background-color:transparent; text-decora
             <p style="text-align:justify; margin-right:1%; margin-left:1%;"><a href="#characters">Four European citizens</a> are selected by Frontier, the leading space exploration company of the late 21<sup>st</sup> Century, to join the <a href="#promise">Promise Project</a> and venture into the farthest reaches of the Solar System aboard the lossless spaceship Cyclica. While their 120-years long endeavor begins as a luxury space vacation, the crew will have to face themselves and each other, their own changing bodies, the hostile deep space environment and even Cyclica itself. Flyby after flyby, planet after planet, their adventure becomes a discovery of self and the renewed awareness of what being together means.</p>
             <p><b>Genres:</b> Scifi</p>
             <p><b>Core themes:</b> Space survival, collective action, consciousness, transhumanity, hivemind</p>
-            <p><b>Length:</b> &#127466;&#127482; 83.5k words</p>
-            <p><b>Length:</b> &#127470;&#127481; 66.5k parole [20/26 capitoli tradotti]</p>
+            <p><b>Length:</b> &#127466;&#127482; 84k words</p>
+            <p><b>Length:</b> &#127470;&#127481; 77.6k parole [23/26 capitoli tradotti]</p>
             <p><b>Started writing in:</b> June 2023</p>
             <p><b>Latest version:</b> July 2024</p>
             <p><b>UPDATE:</b> Stuff happened, final revision planned for February 2025</p>
