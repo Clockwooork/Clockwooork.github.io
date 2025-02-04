@@ -21,21 +21,18 @@ a:visited 	{background-color:transparent; text-decoration:none; color:#8DCFEC;}
 button		{background-color:rgb(68,117,47); font-family:Chakra Petch; font-size:150%; color:rgb(210, 170, 0); text-align:center; overflow:hidden; padding:1% 2%; border:2px solid rgb(210, 170, 0); cursor:pointer; float:center; justify-content: center;}
 button:hover	{background-color:rgb(48,97,27); overflow:hidden;}
 
-.topnav 	  {overflow:hidden; background-color:#8DCFEC; float:none; position:relative; top:0; left:0; transform:none; text-align:justify; font-size:200%;}
+.topnav 	  {overflow:hidden; background-color:#8DCFEC; float:none; position:relative; top:0; left:0; transform:none; text-align:center;; font-size:200%;}
 .topnav a 	{float:left; display:block; color:black; text-align:justify; padding:0.5% 2%; text-decoration:none; font-family:Teko;}
 .topnav a:hover {background-color:#4194CB; color:rgb(220, 220, 220);}
 
-.container  {font-size:100%; text-align:justify; margin-left:2%; margin-right:2%;}
-.container .btn {position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); -ms-transform:translate(-50%,-50%); background-color:rgb(68,117,47); color:rgb(210, 170, 0); font-size:100%; padding:1% 1%; border:none; cursor:pointer; border-radius:5px;}
-.container .btn:hover {background-color:black;}
+.container  {font-size:100%; text-align:justify; margin-left:2vw; margin-right:2vw;}
 
 .column     {float:left; width:50%;}
 .row:after  {content:""; clear:both; display:table;}
 
-@media screen and (max-width: 800px) {
-  .left, .main, .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {  width: 100%;  }
 }
 </style>
 <title>Archive of Tomorrow</title>
@@ -44,7 +41,9 @@ button:hover	{background-color:rgb(48,97,27); overflow:hidden;}
 
 <body>
 <br>
-<h1 id="top" style="width:100vw">The <i>Meteorina</i> Endeavors</h1>
+<div class="container" style="text-align:center; margin-right:10vw; margin-left:10vw; margin-top:0; margin-bottom:0;">
+  <h1 id="top" style="width:100vw">The <i>Meteorina</i> Endeavors</h1>
+</div>
 <br>
 <div class="topnav" style="width:100vw">
   <a class="active" href="index.html">Home</a>
@@ -54,7 +53,7 @@ button:hover	{background-color:rgb(48,97,27); overflow:hidden;}
   <a href="shortstories.html">Solarpunk Short Stories</a>
   <a href="contact.html">Who am I anyway?</a>
   <a href="links.html">Links & Neighbours</a>
-  <div class="gtranslate_wrapper" style="text-align: right;"></div>
+  <div class="gtranslate_wrapper" style="text-align:right; font-size:10vw"></div>
     <script>window.gtranslateSettings = {"default_language":"en","languages":["en","it","fi"],"wrapper_selector":".gtranslate_wrapper"}</script>
     <script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
 </div>
