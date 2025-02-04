@@ -31,6 +31,9 @@ button:hover	{background-color:rgb(48,97,27); overflow:hidden;}
 .column     {float:left; width:50%;}
 .row:after  {content:""; clear:both; display:table;}
 
+/*.grid-container         {display:grid; grid-template columns:auto; grid-gap:10px;}
+.grid item:first-child  {}*/
+
 @media only screen and (max-width: 800px) {
   /* For mobile phones: */
   .container {width:90%; margin-left:10%; margin-right:10%;}
@@ -102,7 +105,7 @@ button:hover	{background-color:rgb(48,97,27); overflow:hidden;}
 <hr />
 <br>
 
-<div class="container" style="text-align:center; overflow:auto; display:grid;">
+<div class="container" style="display:grid; overflow:auto;">
   <h1>Meet the Crew!</h1>
   <br>
     <div class="card">
