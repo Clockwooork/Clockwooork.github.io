@@ -30,7 +30,7 @@ twitter_username: -
 github_username:  barresian
 
 # Build settings
-theme: minimal-mistakes
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
