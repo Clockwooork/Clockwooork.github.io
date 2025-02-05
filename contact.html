@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Belanosima&family=Chakra+Petch:ital@0;1&family=Neucha&family=Orbitron:wght@800&family=Play&family=Six+Caps&family=Tangerine&family=Teko:wght@300&family=Titillium+Web&family=EB+Garamond&family=Yanone+Kaffeesatz&family=Macondo+Swash+Caps&family=Yuji+Boku&family=Cinzel+Decorative&family=Caudex:wght@700&family=Oregano&family=Nova+Round&family=IM+Fell+English&display=swap');
 
@@ -15,15 +15,21 @@ address		{font-family:EB Garamond, serif; font-size:100%; color:black; text-alig
 a:link 		{color:rgb(68,117,47); background-color:transparent; text-decoration:none;}
 a:visited 	{color:rgb(170, 140, 0); background-color:transparent; text-decoration:none;}
 
-.topnav 	{overflow:hidden; background-color:rgb(68,117,47); float:none; position:relative; top:0; left:0; transform:none; text-align:justify; font-size:200%;}
+.topnav 	{overflow:hidden; background-color:rgb(68,117,47); float:none; position:sticky; top:0; left:0; transform:none; text-align:justify; font-size:200%;}
 .topnav a 	{float:left; display:block; color:rgb(220, 220, 220); text-align:justify; padding:0.5% 1%; text-decoration:none; font-family:Teko;}
 .topnav a:hover {background-color:rgb(48,97,27); color:rgb(210, 170, 0);}
 
-.container  {font-size:100%; text-align:justify; margin-right:5%; margin-left:5%; margin-top:0; margin-bottom:0;}
+.container  {font-size:120%; text-align:justify; width:60vw; margin-right:20vw; margin-left:20vw;}
 .column     {float:left; width:33%;}
 .row:after  {content:""; clear:both; display:table;}
+
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  .container {width:90%; margin-left:5%; margin-right:5%; font-size:100%;}
+}
+
 </style>
-<title>Archive of Tomorrow - About Me</title>
+<title>About Me</title>
 <link rel="icon" type="image/x-icon" href="logosp.png">
 </head>
 
@@ -49,23 +55,23 @@ a:visited 	{color:rgb(170, 140, 0); background-color:transparent; text-decoratio
 <hr />
 
 <div class="container">
-<img src="sparkmaster.jpg" alt="Clockwork in a blue winter jacket holding Christmas lights in a garden by night" width="240" height="320" style="float:left; display:block; margin:1% 2%;">
-<p>I’m Andrea [he/him], but few call me like that. Friends go by “Barre” and on the Internet I’m known as “Clockwork”, which is the pseudonym I use for my stories as well.<p>
-<p>I’ve always loved storytelling, archaeology and science, but it was only halfway through my Master’s Degree in Theoretical Physics in Torino that I realized I <i>needed</i> to write. To get my stories out there. Spending years of quarantine in a lonely room during my PhD in Warsaw was the final push, and so <a href="https://clockwooork.github.io/veliode-saga.html">&#127466;&#127482; <i>Words of Tomorrow</i> / &#127470;&#127481; <i>Parole dell'Avvenire</i></a>, my first novel, was born: an attempt not only to tell a story but also to communicate the urgency for a renewed kind of fiction. One that is political and draws inspiration from today’s conflicts and issues and can at the same time imagine not only a better, more equal world but also a realistic path to achieve it. This is what inspires me and drives me to write.</p>
-<p>Ursula K. LeGuin, Kim Stanley Robinson and Cory Doctorow are the authors that I aim to become; I don’t unconditionally love all their stories, but theirs are the ones that inspired me to think and make my own.</p>
-<p>Naomi Klein is my ideological nanny, <i>No Logo</i> being the first essay that opened my mind about the real depth of modern conflicts. Soon David Graeber, Andreas Malm, Silvia Federici and Frantz Fanon followed, adding crucial ideas about liberation from fossil capitalism, patriarchy and colonialism to my arsenal. I wouldn’t be a solarpunk without their knowledge and insights.</p>
-<p>Moreover, Pawe&#322; <a href="https://sociale.network/@alxd@writing.exchange">“alxd”</a> Ngei, <a href="https://sociale.network/@AlinaLeonova@wandering.shop">Alina Leonova</a>, <a href="https://sociale.network/@tinker@infosec.exchange">Tinker</a>, <a href="https://pluralistic.net/">Cory Doctorow</a> and <a href="https://sociale.network/@valkyrie@wandering.shop">Valkyrie</a> are contemporary solarpunks I look up to, and I can always trust their Mastodon feeds to be ripe of technological, literary and philosophical ideas I can draw inspiration from. You should check them out. </p>
-<p>If you happen to speak Italian, I also advise you to take a look at the Discord server for rookie authors, <a href="https://discord.gg/FpgT7FWETx">Il Nido dei Gufi</a>, where many members share their stories and advice on each other's craft. One of the best places on the internet if you like stories. Members of this hub (including me!) got together and put up <a href="https://www.edizioninovilunio.it/">an editorial collective</a> where we collect the best ideas, prompts, stories, book reviews and EVEN A MAGAZINE (&#127470;&#127481; <a href="https://www.edizioninovilunio.it/chimera/"><i>La Chimera</i></a>), in an attempt to reverse the dreadful trajectory that publishing in Italy has been falling into for the last decade. Check it out if you believe we deserve a different, better literature.</p>
-<p>Special thanks to my partner Mimma <a href="https://instagram.com/pastelskink?igshid=MzNlNGNkZWQ4Mg==">“Pastelskink”</a> Vottonen, who endures my repeated ramblings and various attempts at storytelling, and who also helped me styling this site. Ask her about colors and games.</p>
+  <img src="sparkmaster.jpg" alt="Clockwork in a blue winter jacket holding Christmas lights in a garden by night" width="240" height="320" style="float:left; display:block; margin:1% 2%;">
+  <p>I’m Andrea [he/him], but few call me like that. Friends go by “Barre” and on the Internet I’m known as “Clockwork”, which is the pseudonym I use for my stories as well.<p>
+    <p>I’ve always loved storytelling, archaeology and science, but it was only halfway through my Master’s Degree in Theoretical Physics in Torino that I realized I <i>needed</i> to write. To get my stories out there. Spending years of quarantine in a lonely room during my PhD in Warsaw was the final push, and so <a href="https://clockwooork.github.io/veliode-saga.html">&#127466;&#127482; <i>Words of Tomorrow</i> / &#127470;&#127481; <i>Parole dell'Avvenire</i></a>, my first novel, was born: an attempt not only to tell a story but also to communicate the urgency for a renewed kind of fiction. One that is political and draws inspiration from today’s conflicts and issues and can at the same time imagine not only a better, more equal world but also a realistic path to achieve it. This is what inspires me and drives me to write.</p>
+    <p>Ursula K. LeGuin, Kim Stanley Robinson and Cory Doctorow are the authors that I aim to become; I don’t unconditionally love all their stories, but theirs are the ones that inspired me to think and make my own.</p>
+    <p>Naomi Klein is my ideological nanny, <i>No Logo</i> being the first essay that opened my mind about the real depth of modern conflicts. Soon David Graeber, Andreas Malm, Silvia Federici and Frantz Fanon followed, adding crucial ideas about liberation from fossil capitalism, patriarchy and colonialism to my arsenal. I wouldn’t be a solarpunk without their knowledge and insights.</p>
+    <p>Moreover, Pawe&#322; <a href="https://sociale.network/@alxd@writing.exchange">“alxd”</a> Ngei, <a href="https://sociale.network/@AlinaLeonova@wandering.shop">Alina Leonova</a>, <a href="https://sociale.network/@tinker@infosec.exchange">Tinker</a>, <a href="https://pluralistic.net/">Cory Doctorow</a> and <a href="https://sociale.network/@valkyrie@wandering.shop">Valkyrie</a> are contemporary solarpunks I look up to, and I can always trust their Mastodon feeds to be ripe of technological, literary and philosophical ideas I can draw inspiration from. You should check them out. </p>
+    <p>If you happen to speak Italian, I also advise you to take a look at the Discord server for rookie authors, <a href="https://discord.gg/FpgT7FWETx">Il Nido dei Gufi</a>, where many members share their stories and advice on each other's craft. One of the best places on the internet if you like stories. Members of this hub (including me!) got together and put up <a href="https://www.edizioninovilunio.it/">an editorial collective</a> where we collect the best ideas, prompts, stories, book reviews and EVEN A MAGAZINE (&#127470;&#127481; <a href="https://www.edizioninovilunio.it/chimera/"><i>La Chimera</i></a>), in an attempt to reverse the dreadful trajectory that publishing in Italy has been falling into for the last decade. Check it out if you believe we deserve a different, better literature.</p>
+    <p>Special thanks to my partner Mimma <a href="https://instagram.com/pastelskink?igshid=MzNlNGNkZWQ4Mg==">“Pastelskink”</a> Vottonen, who endures my repeated ramblings and various attempts at storytelling, and who also helped me styling this site. Ask her about colors and games.</p>
 </div>
 <hr />
 
 <div class="container">
   <h3 id="featured"> Magazines and sites where my works have been featured </h3>
   <ul style="font-family:EB Garamond; font-size:120%">
-      <li> [SOON] &#127470;&#127481; <a href="https://www.edizioninovilunio.it/chimera/">"Soluzioni Speciali"</a> ne <i>La Chimera</i></a> (n.1)<i> per Novilunio Edizioni</i> </li>
       <li> [SOON] &#127470;&#127481; <a href="https://solarpunk.it/">Traduzione di "Mutuo Soccorso e Distribuzione Alimentare" </a> di Tinker per <i>Solarpunk Italia</i> </li>
       <li> [SOON] &#127470;&#127481; <a href="https://solarpunk.it/">Recensione di "Lungo la Corrente" </a> di Lorenzo Colantoni per <i>Solarpunk Italia</i> </li>
+      <li> [Jan 27th] &#127470;&#127481; <a href="https://www.edizioninovilunio.it/chimera/">"Soluzioni Speciali"</a> ne <i>La Chimera</i></a> (n.1)<i> per Novilunio Edizioni</i> </li>
       <li> [28 Nov 2024] &#127470;&#127481; <a href="https://solarpunk.it/sei-motivi-per-rimpicciolire-il-vostro-giardino/2024/">Traduzione di "Sei Motivi per rimpicciolire il Vostro Giardino" </a> di Katharine Reid per <i>Solarpunk Italia</i> </li>
       <li> [4 Nov 2024] &#127470;&#127481; <a href="https://cohibeo.it/2024/11/04/riflessi/">"Riflessi" </a> per <i>Cohibeo</i> </li>
       <li> [30 Oct 2024] &#127470;&#127481; <a href="https://solarpunk.it/diritto-di-riparazione/2024/">"Diritto alla Riparazione"</a> per <i>Solarpunk Italia</i> </li>
