@@ -24,7 +24,7 @@ button:hover	{background-color:rgb(48,97,27); overflow:hidden;}
 .topnav a 	{float:left; display:block; color:rgb(220, 220, 220); text-align:justify; padding:0.5% 2%; text-decoration:none; font-family:Teko;}
 .topnav a:hover {background-color:rgb(48,97,27); color:rgb(210, 170, 0);}
 
-.container  {font-size:100%; text-align:justify; margin-left:2%; margin-right:2%;}
+.container  {font-size:100%; text-align:justify; width:60vw; margin-left:20vw; margin-right:20vw; overflow:auto;}
 .container .btn {position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); -ms-transform:translate(-50%,-50%); background-color:rgb(68,117,47); color:rgb(210, 170, 0); font-size:100%; padding:1% 1%; border:none; cursor:pointer; border-radius:5px;}
 .container .btn:hover {background-color:black;}
 
@@ -32,6 +32,13 @@ button:hover	{background-color:rgb(48,97,27); overflow:hidden;}
 .row:after  {content:""; clear:both; display:table;}
 
 video       {max-width:100%; height:auto; text-align:center;}
+
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  .container     {width:90%; margin-left:5%; margin-right:5%; font-size:80%;}
+  .card          {width:90%; margin-left:5%; margin-right:5%; font-size:80%;}
+}
+
 </style>
 <title>Archive of Tomorrow</title>
 <link rel="icon" type="image/x-icon" href="logosp.png">
@@ -49,11 +56,13 @@ video       {max-width:100%; height:auto; text-align:center;}
   <a href="meteorina.html">Meteorina</a>
   <a href="contact.html">Who am I anyway?</a>
   <a href="links.html">Links & Neighbours</a>
-  <div class="gtranslate_wrapper" style="text-align: right;"></div>
-    <script>window.gtranslateSettings = {"default_language":"en","languages":["en","it","fi"],"wrapper_selector":".gtranslate_wrapper"}</script>
-    <script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
+  <div class="gtranslate_wrapper" style="text-align: right;">
+      <script>window.gtranslateSettings = {"default_language":"en","languages":["en","it","fi"],"wrapper_selector":".gtranslate_wrapper"}</script>
+      <script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
+    </div>
 </div>
 <hr />
+<br>
 
 <h1>What is Solarpunk?</h1>
 <div class="container" style="text-align:center; margin-right:80px; margin-left:80px; margin-top:0; margin-bottom:0;">
