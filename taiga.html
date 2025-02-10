@@ -15,8 +15,8 @@ address		 {font-family:Neucha; font-size:100%; color:black; text-align:center;}
 a:link 	   {color:rgb(181, 127, 80); background-color:transparent; text-decoration:none;}
 a:visited  {color:rgb(124, 82, 45); background-color:transparent; text-decoration:none;}
 
-.topnav 	   {overflow:hidden; background-color:rgb(159, 177, 188); float:none; position:relative; top:0; left:0; transform:none; text-align:justify; font-size:200%;}
-.topnav a 	 {float:left; display:block; color:rgb(18, 85, 60); text-align:justify; padding:1% 2%; text-decoration:none; font-family:Neucha;}
+.topnav 	   {overflow:hidden; background-color:rgb(159, 177, 188); float:none; position:sticky; top:0; left:0; transform:none; text-align:justify; font-size:200%;}
+.topnav a 	 {float:left; display:block; color:rgb(18, 85, 60); text-align:justify; padding:1% 1%; text-decoration:none; font-family:Neucha;}
 .topnav a:hover {background-color:rgb(53, 77, 92); color:rgb(100, 128, 144);}
 
 .container  {font-size:100%; text-align:center; margin-right:2%; margin-left:2%; margin-top:0; margin-bottom:0;}
@@ -28,6 +28,12 @@ button:hover	{background-color:rgb(100, 128, 144);}
 
 figure        {width:500;}
 figcaption    {font-family:Neucha; font-size:120%; text-align:justify; color:black;}
+
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  .container     {width:90%; margin-left:5%; margin-right:5%; font-size:80%;}
+  .card          {width:90%; margin-left:5%; margin-right:5%; font-size:80%;}
+}
 </style>
 <title>Triple Taiga Trouble</title>
 <link rel="icon" type="image/x-icon" href="pact-trigram.png">
