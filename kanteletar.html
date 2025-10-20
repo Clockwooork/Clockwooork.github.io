@@ -41,37 +41,6 @@ button:hover	{opacity:80%; overflow:hidden;}
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-  background-color: red;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 60%;
@@ -147,6 +116,23 @@ button:hover	{opacity:80%; overflow:hidden;}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {.prev, .next,.text {font-size: 11px}}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 </style>
 
 <title>Kanteletar: Chronicles from the Twenty-fifth Century</title>
@@ -162,20 +148,19 @@ button:hover	{opacity:80%; overflow:hidden;}
 <br>
 <div class="topnav">
   <a class="active" href="index.html">Home</a>
-  <div class="dropdown">
-    <button class="dropbtn">All the novels &#128317;</button>
-    <div class="dropdown-content" onclick="myFunction()">
-      <a href="veliode-saga.html">Veliode Saga</a>
-      <a href="cyclica.html">Simulacra Navigans</a>
-      <a href="taiga.html">Triple Taiga Trouble</a>
-    </div>
-  </div>
+  <a href="veliode-saga.html">Veliode Saga</a>
+  <a href="cyclica.html">Simulacra Navigans</a>
+  <a href="taiga.html">Triple Taiga Trouble</a>
   <a href="shortstories.html">Solarpunk Short Stories</a>
   <a href="wordsforafuture.html">Auspictionary</a>
   <a href="contact.html">Who am I anyway?</a>
   <a href="links.html">Links & Neighbours</a>
 </div>
 <hr />
+
+<div class="dropdown">Mouse over me!
+  <div class="dropdown-content">Hello World!</div>
+</div>
 
 <h1>Welcome to the <i>Kanteletar Artistic & Digital Library!</i></h1>
 <br>
@@ -894,22 +879,4 @@ function showSlides(n) {
 </div>
 <br>
 </address>
-
-<script>
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-  var myDropdown = document.getElementById("myDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
-  }
-}
-</script>
 </html>
