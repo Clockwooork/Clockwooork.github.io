@@ -51,6 +51,10 @@ button:hover	{opacity:80%; overflow:hidden;}
   z-index: 1;
 }
 
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
 /* Dropdown button */
 .dropdown .dropbtn {
   font-size: 16px;
@@ -160,7 +164,7 @@ button:hover	{opacity:80%; overflow:hidden;}
   <a class="active" href="index.html">Home</a>
   <div class="dropdown">
     <button class="dropbtn">All the novels &#128317;</button>
-    <div class="dropdown-content">
+    <div class="dropdown-content" onclick="myFunction()">
       <a href="veliode-saga.html">Veliode Saga</a>
       <a href="cyclica.html">Simulacra Navigans</a>
       <a href="taiga.html">Triple Taiga Trouble</a>
@@ -890,4 +894,22 @@ function showSlides(n) {
 </div>
 <br>
 </address>
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
 </html>
