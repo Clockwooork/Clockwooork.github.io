@@ -35,6 +35,22 @@ button:hover	{opacity:80%; overflow:hidden;}
 .column     {float:left; width:50%;}
 .row:after  {content:""; clear:both; display:table;}
 
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 60%;
@@ -130,10 +146,12 @@ button:hover	{opacity:80%; overflow:hidden;}
   <a href="taiga.html">Triple Taiga Trouble</a>
   <a href="shortstories.html">Solarpunk Short Stories</a>
   <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
     <div class="dropdown-content">
       <a href="#">Link 1</a>
       <a href="#">Link 2</a>
       <a href="#">Link 3</a>
+    </div>
   </div>
   <a href="wordsforafuture.html">Auspictionary</a>
   <a href="contact.html">Who am I anyway?</a>
